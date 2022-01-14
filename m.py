@@ -23,5 +23,5 @@ for yi in range(0, len(m0)):
 m = np.matrix(m)
 m = m * m.transpose()
 q, r = np.linalg.qr(m * m.transpose())
-print(np.sqrt(abs(r[int(sys.argv[1]) - 2, int(sys.argv[1]) - 2])))
+print(np.sqrt(abs(r[int(sys.argv[1]) - 2, int(sys.argv[1]) - 2])) * (float(int(sys.argv[1])) - 1) * (float(int(sys.argv[1])) - 1))
 
