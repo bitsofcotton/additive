@@ -1,5 +1,5 @@
 # additive
-Calculate the pseudo limit of singuar value in numerically.
+Calculate the pseudo limit of singular value in numerically.
 
 # Description
 Calculate symmetric matrix A's singular value limit by given equation series.
